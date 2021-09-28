@@ -18,7 +18,7 @@
         "symfony/framework-bundle": "^3.4||^4.0||^5.0",
         "doctrine/doctrine-bundle": "^1.0||^2.0",
         "doctrine/orm": "^2.2",
-        "cobbleweb/phpass": "^0.3.5",
+        "cobbleweb/phpass": "dev-master",
         "mukadi/doctrine-crud": "^1.0",
         "johnpbloch/wordpress": "5.1",
         "symfony/dotenv": ">=3.4",
@@ -34,8 +34,16 @@
     },
     "repositories": [
         {
-            "type": "vcs",
-            "url": "https://github.com/CobbleWebDevUser/phpass.git"
+            "type": "package",
+            "package": {
+                "name": "cobbleweb/phpass",
+                "version": "dev-master",
+                "source": {
+                    "url": "https://github.com/CobbleWebDevUser/phpass.git",
+                    "type": "git",
+                    "reference":"dev-master"
+                }
+            }
         }
     ]
 }

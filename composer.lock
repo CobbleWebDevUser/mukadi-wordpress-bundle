@@ -4,17 +4,18 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "74c7372d7b7c76caff409d5183a8431c",
+    "content-hash": "9de19bf16a18c30d093505f1a65e35d0",
     "packages": [
         {
             "name": "cobbleweb/phpass",
-            "version": "0.3.5",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CobbleWebDevUser/phpass.git",
-                "reference": "0.3.5"
+                "reference": "dev-master"
             },
-            "type": "library"
+            "type": "library",
+            "time": "2021-09-28T08:59:25+00:00"
         },
         {
             "name": "composer/installers",
@@ -4861,7 +4862,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "cobbleweb/phpass": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
