@@ -32,6 +32,9 @@
     "suggest": {
         "doctrine/doctrine-migrations-bundle": "For a best management of your database schema"
     },
+    "replace": {
+        "mukadi/wordpress-bundle": "dev-master"
+    },
     "repositories": [
         {
             "type": "package",
